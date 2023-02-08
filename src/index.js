@@ -76,6 +76,7 @@ function fillFormData(dogObj, dogTR){
 
 }
 
+
 function patchDog(editedDogObj, dogTR){
     fetch(`http://localhost:3000/dogs/${editedDogObj.id}`, {
         method: "PATCH",
